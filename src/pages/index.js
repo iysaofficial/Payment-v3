@@ -14,14 +14,14 @@ export default function Home() {
       <div class="link-web mx-auto text-center">
         <a
           href="/indonesiaparticipants"
-          class="btn btn--primary text-center mt-5"
+          class="btn btn-action text-center mt-5"
         >
           Indonesia Participant{" "}
           <i class="&nbsp; fa-solid fa-earth-americas"></i>
         </a>
         <a
           href="/internationalparticipants"
-          class="btn btn--accent text-center mt-5"
+          class="btn btn-action text-center mt-5"
         >
           International Participant{" "}
           <i class="&nbsp; fa-solid fa-earth-americas"></i>
