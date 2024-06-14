@@ -174,17 +174,17 @@ export default function Indonesiaparticipants() {
     }
   };
 
-  const convertToIDR = async () => {
-    const exchangeRate = await fetchCurrencyExchangeRate();
-    if (exchangeRate) {
-      const priceInIDR = (price / 100) * exchangeRate;
-      setPriceIDR(priceInIDR);
-    }
-  };
+  // const convertToIDR = async () => {
+  //   const exchangeRate = await fetchCurrencyExchangeRate();
+  //   if (exchangeRate) {
+  //     const priceInIDR = (price / 100) * exchangeRate;
+  //     setPriceIDR(priceInIDR);
+  //   }
+  // };
 
-  useEffect(() => {
-    convertToIDR();
-  }, [price]);
+  // useEffect(() => {
+  //   convertToIDR();
+  // }, [price]);
 
   return (
     <section className="">
