@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -12,20 +13,20 @@ export default function Home() {
         </div>
       </div>
       <div class="link-web mx-auto text-center">
-        <a
+        <Link
           href="/indonesiaparticipants"
           class="btn btn-action text-center mt-5"
         >
           Indonesia Participant{" "}
           <i class="&nbsp; fa-solid fa-earth-americas"></i>
-        </a>
-        <a
+        </Link>
+        <Link
           href="/internationalparticipants"
           class="btn btn-action text-center mt-5"
         >
           International Participant{" "}
           <i class="&nbsp; fa-solid fa-earth-americas"></i>
-        </a>
+        </Link>
       </div>
     </section>
   );

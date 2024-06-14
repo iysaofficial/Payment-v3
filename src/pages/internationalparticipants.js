@@ -204,16 +204,16 @@ export default function Indonesiaparticipants() {
             has not changed.
           </p>
           <p>
-            2. After ensuring the data is correct, you can click the "Submit"
+            2. After ensuring the data is correct, you can click the &quot;Submit&quot;
             button. If we have received your data, there will be a green
-            notification next to the "Submit" button.
+            notification next to the &quot;Submit&quot; button.
           </p>
           <p>
             3. Notification: Data has been successfully submitted. The
-            registration data will be sent to the team leader's email address,
+            registration data will be sent to the team leaders email address,
             and the document will be validated by our team. Please be patient
             and wait up to 3 days after the registration time. The Letter of
-            Acceptance (LOA) will be sent to the team leader's email address.
+            Acceptance (LOA) will be sent to the team leaders email address.
           </p>
           <br></br>
 
@@ -240,11 +240,11 @@ export default function Indonesiaparticipants() {
             <div className="user-details">
               <div className="input-box">
                 <label htmlFor="FULL_NAME" className="form-label">
-                  Leader & Team Members' Names
+                  Leader & Team Members Names
                 </label>
                 <p>
-                  Notes: Enter the leader's name and team members' names with
-                  the leader's name first, in the following format:
+                  Notes: Enter the leaders name and team members names with
+                  the leaders name first, in the following format:
                 </p>
                 <h6>Kamal Putra</h6>
                 <h6>Ranu Ramadhan</h6>
